@@ -24,8 +24,9 @@ foreach ($actors as $actor) {
 }*/
 $peliculas = Film::all();
 foreach ($peliculas as $pelicula) {
-    echo $pelicula->title . "<br>";
+    echo "<strong style='color: red;'>" . $pelicula->title . "</strong><br>";
     foreach ($pelicula->actors as $actor) {
         echo $actor->first_name . " " . $actor->last_name . "<br>";
     }
 }
+?>
