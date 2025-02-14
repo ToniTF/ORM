@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace App\Models;// namespace es la carpeta donde se encuentra el modelo
 use Illuminate\Database\Eloquent\Model;
 
 class Actor extends Model {
